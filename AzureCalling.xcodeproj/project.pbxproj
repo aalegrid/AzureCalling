@@ -16,6 +16,7 @@
 		1F7CD40525C1E9E80081D8F1 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CD3EB25C1E9E80081D8F1 /* IntroViewController.swift */; };
 		1F7CD40A25C1E9E80081D8F1 /* JoinCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CD3F025C1E9E80081D8F1 /* JoinCallViewController.swift */; };
 		1F7CD41225C1E9E80081D8F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CD3FA25C1E9E80081D8F1 /* SceneDelegate.swift */; };
+		67F0B436294BF33000C3DB9A /* AppSettings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 67F0B435294BF33000C3DB9A /* AppSettings.xcconfig */; };
 		692001692880B71300148D07 /* LinkMetadataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692001682880B71300148D07 /* LinkMetadataManager.swift */; };
 		698B18FC28891C3B008EDF11 /* TokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B18FB28891C3B008EDF11 /* TokenService.swift */; };
 		698B18FE28891C7F008EDF11 /* CallingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B18FD28891C7F008EDF11 /* CallingContext.swift */; };
@@ -30,7 +31,6 @@
 		755733052875E9F00072A021 /* PaddingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755733042875E9F00072A021 /* PaddingContainer.swift */; };
 		7563059B28A4054E0028B2C6 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7563059A28A4054E0028B2C6 /* Data+Extensions.swift */; };
 		756DE3092885C6B500A943CF /* BusyOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756DE3082885C6B500A943CF /* BusyOverlay.swift */; };
-		7591BBE7289AFBBB00EE666F /* AppConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7591BBE6289AFBBB00EE666F /* AppConfig.xcconfig */; };
 		8931886CE784B7FCF6503FCD /* Pods_AzureCalling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F538450C6909F619B02539DC /* Pods_AzureCalling.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +61,7 @@
 		1F7CD3F925C1E9E80081D8F1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F7CD3FA25C1E9E80081D8F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		21F3B94725473BF600BD9F91 /* AzureCalling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzureCalling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F0B435294BF33000C3DB9A /* AppSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppSettings.xcconfig; sourceTree = "<group>"; };
 		692001682880B71300148D07 /* LinkMetadataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkMetadataManager.swift; sourceTree = "<group>"; };
 		698B18FB28891C3B008EDF11 /* TokenService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenService.swift; sourceTree = "<group>"; };
 		698B18FD28891C7F008EDF11 /* CallingContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallingContext.swift; sourceTree = "<group>"; };
@@ -158,6 +159,7 @@
 		21F3B93E25473BF600BD9F91 = {
 			isa = PBXGroup;
 			children = (
+				67F0B435294BF33000C3DB9A /* AppSettings.xcconfig */,
 				1F7CD3DA25C1E9E80081D8F1 /* AzureCalling */,
 				21F3B98D254741A500BD9F91 /* Frameworks */,
 				21F3B94825473BF600BD9F91 /* Products */,
@@ -251,7 +253,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					21F3B94625473BF600BD9F91 = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -281,9 +283,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7591BBE7289AFBBB00EE666F /* AppConfig.xcconfig in Resources */,
 				1F7CD3FB25C1E9E80081D8F1 /* LaunchScreen.storyboard in Resources */,
 				1F7CD3FD25C1E9E80081D8F1 /* Assets.xcassets in Resources */,
+				67F0B436294BF33000C3DB9A /* AppSettings.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,7 +524,7 @@
 				CODE_SIGN_ENTITLEMENTS = AzureCalling/AzureCalling.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UBF8T346G9;
+				DEVELOPMENT_TEAM = SE4E5N4D92;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)  ";
 				INFOPLIST_FILE = "$(SRCROOT)/AzureCalling/Info.plist";
