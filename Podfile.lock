@@ -1,4 +1,12 @@
 PODS:
+  - AppCenter (5.0.0):
+    - AppCenter/Analytics (= 5.0.0)
+    - AppCenter/Crashes (= 5.0.0)
+  - AppCenter/Analytics (5.0.0):
+    - AppCenter/Core
+  - AppCenter/Core (5.0.0)
+  - AppCenter/Crashes (5.0.0):
+    - AppCenter/Core
   - AzureCommunicationCalling (2.2.1):
     - AzureCommunicationCommon (~> 1.0)
   - AzureCommunicationCommon (1.1.1)
@@ -55,6 +63,7 @@ PODS:
   - SwiftLint (0.42.0)
 
 DEPENDENCIES:
+  - AppCenter
   - AzureCommunicationCalling (= 2.2.1)
   - AzureCommunicationUICalling (= 1.1.0)
   - AzureCore (= 1.0.0-beta.12)
@@ -65,6 +74,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AppCenter
     - AzureCommunicationCalling
     - AzureCommunicationCommon
     - AzureCommunicationUICalling
@@ -74,6 +84,7 @@ SPEC REPOS:
     - SwiftLint
 
 SPEC CHECKSUMS:
+  AppCenter: 30ac5adefc8fc41d9530f1cc91829810a6af4c93
   AzureCommunicationCalling: aee011f293544e151958a7d5888d6239199adba1
   AzureCommunicationCommon: cc520a89f3f8db6d58de42ec4a70cfb79a1b76a3
   AzureCommunicationUICalling: 4e2759942ccc1c97915b6ea0cfb597308f218925
@@ -82,6 +93,6 @@ SPEC CHECKSUMS:
   MSAL: 0d9a8472c4ac734413325e8a257af6833d943318
   SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
 
-PODFILE CHECKSUM: 370c1f837370e871abbd3552bc563b36486601a7
+PODFILE CHECKSUM: e9f0357afb81e26d8f28b2a6f52caa979723e9c5
 
 COCOAPODS: 1.11.3

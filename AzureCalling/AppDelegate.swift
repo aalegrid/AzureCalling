@@ -5,6 +5,9 @@
 
 import UIKit
 import MSAL
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         initializeDependencies()
-
+        AppCenter.start(withAppSecret: "1d8d86d2-3014-459e-acab-f9ce658e91a5", services: [Analytics.self, Crashes.self])
         return true
     }
 
